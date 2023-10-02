@@ -3,8 +3,8 @@ body,html {
     margin:0px;
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
-    color:#fff;
-    background:rgb(0, 0, 0);
+    color:#000000;
+    background-image: linear-gradient(to top, #dfe9f3 0%, white 100%);
     scroll-behavior: smooth;
 }
 #loading {
@@ -22,7 +22,7 @@ body,html {
     animation: rotate 0.56s infinite linear;
     width:60px;
     height:60px;
-    border:6px solid #fff;
+    border:6px solid #000;
     border-bottom:6px solid #000;
     border-radius:50%;
     margin:0;
@@ -43,21 +43,13 @@ body,html {
 }
 #title {
     font-size:40px;
-    background-image: linear-gradient(to left, #FF416C 0%, #FF4B2B 100%);
-    -webkit-background-clip:text;
-    background-clip:text;
-    -webkit-text-fill-color: transparent;
-    background-size:500% 500% !important;
-    -webkit-animation: Gradient 20s ease infinite;
-    -moz-animation: Gradient 20s ease infinite;
-    -o-animation: Gradient 20s ease infinite;
-    animation: Gradient 20s ease infinite;
     font-family: 'Comfortaa', cursive;
+    color: black;
 }
 #links {
     margin:40px 0px;
     transition:0.6s ease-in-out;
-    color:#fff;
+    color:#000;
 }
 #links a {
     margin:0px 30px;
@@ -68,14 +60,12 @@ body,html {
     border-bottom:2px solid transparent;
 }
 #links a:hover {
-    border-bottom:2px solid #fff;
+    border-bottom:2px solid #000;
 }
 #middle {
     width:100%;
     height:80vh;
-    background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0)),url("https://images.unsplash.com/photo-1494587351196-bbf5f29cff42?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&&w=1351&q=80") center center fixed;
-    background-size:100% auto;
-    background-repeat:no-repeat;
+    background:linear-gradient(0deg,rgba(0,0,0,1),rgba(0,0,0,0))
     color:white;
     display:flex;
     justify-content:center;
@@ -124,43 +114,43 @@ body,html {
     margin:20px 1%;
     background:transparent;
     border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
+    border-bottom:2px solid #000;
     padding:8px 10px;
     font-family: 'Comfortaa', cursive;
     font-size:18px;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#000;
 }
 #contact form textarea {
     width:96%;
     margin:20px 1%;
     padding:8px 10px;
     border:0px;
-    border-bottom:2px solid rgba(255,255,255,0.5);
+    border-bottom:2px solid #000;
     padding:8px 10px;
     font-family: 'Comfortaa', cursive;
     font-size:18px;
     background:transparent;
     resize:none;
     transition:0.4s ease-in-out;
-    color:#fff;
+    color:#000;
 }
 #contact form input:focus {
     outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
+    border-bottom:2px solid #000;
 }
 #contact form textarea:focus {
     outline:none;
-    border-bottom:2px solid rgba(255,255,255,1);
+    border-bottom:2px solid #000;
 }
 ::placeholder {
-    color:#fff;
+    color:#000;
 }
 .btn_one {
-    color:white;
+    color:#000;
     padding:10px 40px;
     border-radius:50px;
-    border:2px solid #fff;
+    border:2px solid #000;
     font-size:18px;
     font-family: 'Comfortaa', cursive;
     font-weight:bold;
@@ -169,7 +159,7 @@ body,html {
     margin:30px 10px;
 }
 .btn_one:hover {
-    background:white;
+    background:#DEE4E7;
     cursor:pointer;
     color:#000;
 }
@@ -189,7 +179,7 @@ body,html {
     margin:30px 10px;
 }
 .btn_two:hover {
-    background:transparent;
+    background:#000;
     cursor:pointer;
     color:#fff;
 }
